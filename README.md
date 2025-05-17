@@ -10,15 +10,10 @@
 Дан список целых чисел, введённых через пробел. Посчитать, сколько из них больше нуля.
 
 Пример кода:
-
-a=list(map(int,input().split()))
-
-ans=0
-
+<pre><code>python
+a = list(map(int, input().split()))
+ans = 0
 for x in a:
-
-  if x>0
-  
-   ans=ans+1
-   
-print("Количество положительных чисел:",ans)
+    if x > 0:
+        ans=ans+1
+  print("Количество положительных чисел:", ans) </code></pre>
